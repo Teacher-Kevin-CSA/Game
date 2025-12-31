@@ -22,7 +22,9 @@ function game() {
             message.innerText =
                 "You arrived at the island unharmed.\n" +
                 "There is a house with 3 doors.\n" +
-                "One red, one yellow, and one blue.";
+                "One red, one yellow, and one blue. \n +
+                "Which color do you choose?";
+                
             step = 3;
         }
     }
@@ -35,7 +37,7 @@ function game() {
         } else if (input === "blue") {
             message.innerText = "You are eaten by beast\nGame over!";
         } else {
-            message.innerText = "Game over!";
+            message.innerText = "Typed an incorrect color. Game over!";
         }
     }
 
