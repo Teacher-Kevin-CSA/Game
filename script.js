@@ -22,7 +22,7 @@ function game() {
             message.innerText =
                 "You arrived at the island unharmed.\n" +
                 "There is a house with 3 doors.\n" +
-                "One red, one yellow, and one blue. \n +
+                "One red, one yellow, and one blue. \n "+
                 "Which color do you choose?";
                 
             step = 3;
